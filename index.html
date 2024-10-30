@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Subheader -->
+  <div class="container-fluid subheader">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <span>Call Us: <a href="tel:+923337276335">+92-333-7276335</a></span>
+        <span>- Mail Us: <a href="mailto:info@shekztech.com">info@shekztech.com</a></span>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <span><i class="bi bi-geo-alt"></i> Plot 1177, Sector 31B - Crossing, Karachi, Sindh</span>
+      </div>
+      <div class="col-md-2 text-md-end social-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" width="60px" height="50px"><b>ShekzTech</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tools
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Tool 1</a></li>
+              <li><a class="dropdown-item" href="#">Tool 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-primary me-2">Login</button>
+          <button class="btn btn-primary">Get Started Free</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Content -->
+        <div class="col-md-6">
+          <div class="tagline">Education</div>
+          <h1>Web-based LMS, loved by more than 1000 learners</h1>
+          <p>Shekz Tech offers some of the best courses available anywhere online for creating websites. Learn at your own speed and master PHP, Laravel, and CodeIgniter4. Start learning how to code websites right now!</p>
+        </div>
+        
+        <!-- Right Content - Images -->
+        <div class="col-md-6 text-center">
+          <div class="img-wrapper">
+            <img src="image1.jpg" alt="Main image" class="img-main">
+            <img src="image2.jpg" alt="Overlay image" class="img-overlay">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="feature-section">
+    <div class="container">
+      <div class="row text-center">
+        <!-- Digital Learning -->
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Replace this with an appropriate icon -->
+              <i class="bi bi-film"></i> 
+            </div>
+            <h5 class="feature-title">Digital Learning</h5>
+            <p class="feature-description">Digital courses provide limitless learning opportunities.</p>
+          </div>
+        </div>
+        <!-- Skilled Educators -->
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Replace this with an appropriate icon -->
+              <i class="bi bi-person"></i> 
+            </div>
+            <h5 class="feature-title">Skilled Educators</h5>
+            <p class="feature-description">Diverse courses taught by experts.</p>
+          </div>
+        </div>
+        <!-- Broad Curriculum -->
+        <div class="col-md-4">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <!-- Replace this with an appropriate icon -->
+              <i class="bi bi-journal-text"></i> 
+            </div>
+            <h5 class="feature-title">Broad Curriculum</h5>
+            <p class="feature-description">An in-depth curriculum featuring a wide variety of subject matter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container mastery-section">
+    <div class="row">
+      <!-- Image Section -->
+      <div class="col-md-6 person-image">
+        <img src="main.png" alt="Person with laptop" />
+      </div>
+
+      <!-- Text Section -->
+      <div class="col-md-6 mastery-text">
+        <p class="badge bg-light text-dark">About Us</p>
+        <h2 class="mastery-title">Welcome to the WebDev Mastery Hub</h2>
+        <p class="mastery-description">Connecting novice developers with seasoned experts.</p>
+
+        <!-- Checklist -->
+        <ul class="checklist">
+          <li><i class="bi bi-check-circle"></i> Connecting potential web developers with experts in the industry.</li>
+          <li><i class="bi bi-check-circle"></i> Courses utilize the potential of innovative frameworks.</li>
+          <li><i class="bi bi-check-circle"></i> Our mentors have more than ten years of experience.</li>
+          <li><i class="bi bi-check-circle"></i> Transforming the learning of knowledge into expertise mastery.</li>
+        </ul>
+
+        <!-- More About Button -->
+        <a href="#" class="btn-more">More About →</a>
+      </div>
+    </div>
+  </section>
+  <div class="categories">
+  <section class="container categories-section">
+    <p class="badge bg-light text-dark">Course List</p>
+    <h2 class="categories-title">Navigating Major Categories</h2><span>
+    <p class="categories-subtitle">Discover in-demand course offerings within the dynamic field of technology.</p></span>
+    
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>AWS</h5>
+          <span>Course: 1</span>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>CMS</h5>
+          <span>Courses: 3</span>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Database</h5>
+          <span>Course: 1</span>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Framework</h5>
+          <span>Courses: 10</span>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Hosting</h5>
+          <span>Course: 1</span>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Languages</h5>
+          <span>Courses: 3</span>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Web Designing</h5>
+          <span>Courses: 4</span>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="col-md-3">
+        <div class="category-card">
+          <h5>Computer Science</h5>
+          <span>Course: 1</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Load More Button -->
+    <div class="mt-5">
+      <a href="#" class="load-more-btn">Load More Categories</a>
+    </div>
+  </section>
+</div>
+<div class="online">
+<section class="container online-section">
+  <p class="badge bg-light text-dark" >Course List</p>
+  <h2 class="online-title"><b>Ideal Online Learning</b></h2>
+  <h2 class="online-title"><b>For your Career Advancement</b></h2>
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">Framework</span>
+        <img src="card1.png" class="card-img-top" alt="Course 1">
+        <div class="card-body">
+          <h5 class="card-title">Laravel 10 Tutorial in Hindi/Urdu Language with Projects</h5>
+          <p class="card-text">9 Lessons - 1 hour, 29 minutes</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">Framework</span>
+        <img src="card2.png" class="card-img-top" alt="Course 2">
+        <div class="card-body">
+          <h5 class="card-title">Laravel 9 Courses in Hindi/Urdu with projects</h5>
+          <p class="card-text">13 Lessons - 2 hours, 18 minutes</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">Framework</span>
+        <img src="card3.png" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <h5 class="card-title">Mastering Laravel 10 Course: Building Modern Web Applications</h5>
+          <p class="card-text">12 Lessons - 2 hours, 21 minutes</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="online">
+<section class="container online-section">
+  <div class="row">
+    <!-- Card 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">Framework</span>
+        <img src="card4.png" class="card-img-top" alt="Course 1">
+        <div class="card-body">
+          <h5 class="card-title">ECommerce In Codeigniter The Complete Guide Step By Step From Scratch</h5>
+          <p class="card-text">0 Lessons</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">CMS</span>
+        <img src="card5.png" class="card-img-top" alt="Course 2">
+        <div class="card-body">
+          <h5 class="card-title">The complete WordPress guide from scratch with Woocommerce and visual composer</h5>
+          <p class="card-text">0 Lessons</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <span class="badge-framework">Hosting</span>
+        <img src="card6.png" class="card-img-top" alt="Course 3">
+        <div class="card-body">
+          <h5 class="card-title">CPanel for Linux hosting step by step guide from scratch</h5>
+          <p class="card-text">17 Lessons - 3 hours, 10 minutes</p>
+          <p class="text-primary">Free</p>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between">
+          <span>Shehzad Ahmed</span>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; (0)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-5">
+  <a href="#" class="load-more-btn">Load More</a>
+</div>
+</section>
+</div>
+</div>
+<div class="container feedback-section">
+  <h2 class="feedback-title">Learner Feedback</h2>
+  <div class="row justify-content-center">
+    <!-- Feedback Card 1 -->
+    <div class="col-md-5 mb-4">
+      <div class="feedback-card p-3">
+        <img src="icon1.png" class="profile-img" alt="Profile Image">
+        <div class="feedback-content">
+          <h5>Waqar Ahmed <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+          <p class="position">Software Engineer at NayaPay</p>
+          <p>Shekz Tech provides a unique level of expertise. Their comprehensive and helpful courses have taught me more than I could have ever imagined.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feedback Card 2 -->
+    <div class="col-md-5 mb-4">
+      <div class="feedback-card p-3">
+        <img src="icon2.png" class="profile-img" alt="Profile Image">
+        <div class="feedback-content">
+          <h5>Shah Rukh Habib <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h5>
+          <p class="position">Student</p>
+          <p>Shekz Tech courses were my best choice ever. Their technical skills and efficient teaching methods really boosted my web development and computer science understanding.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="web-dev-course-info">
+  <div class="container py-5">
+      <div class="row">
+          <div class="col-lg-8 mx-auto">
+              <p class="text-justify">
+                  Online Web Development Courses Technology has changed the traditional learning concepts in Pakistan, it takes too much time and extra money to learn new techniques, especially web development PHP frameworks like Laravel 10. How can we learn new PHP frameworks and technologies from our homes in this pandemic situation? Why Online Learning? In Pakistan, people learn new technologies and frameworks from private institutions/coaching centers, but it takes too much time to learn everything. If you want to learn web development courses in Pakistan with frameworks, you will spend 80 thousand/per year. But learning web development and PHP frameworks online takes a few thousand (15 thousand/per year). You can access/learn any web development course at any time, anywhere.
+              </p>
+              <p class="text-justify">
+                  Best online Web development learning website in Pakistan/India. We have a lot of channels available on YouTube. Still, few people/channels give quality education, and many channels teach you PHP frameworks. Still, nobody teaches you each and everything; shekztech.com provides you depth knowledge of every single section, from web development to web designing. Shekz Tech is one of the best eLearning platforms in Pakistan and India. Best Free Web designing courses Shekz Tech provides you with the best web designing courses from scratch; you can easily understand the basics. We start from zero (HTML, CSS, Javascript, jQuery, Bootstrap Courses) and teach you the world’s most popular front-end framework, Bootstrap 4.
+              </p>
+              <p class="text-justify">
+                  Best Free Web development courses. We provide you with the best web development courses from basic to advanced levels; we start with PHP, and then we have MySQL once you learn the basics of PHP. We start one of the popular courses, the Codeigniter 3 and Codeigniter 4 courses in both Urdu/Hindi language, and we also have several Codeigniter 3/4 CRUD courses. We also cover the CRUD section in the basic PHP course.
+              </p>
+          </div>
+      </div>
+  </div>
+</section>
+<footer class="footer text-light">
+  <div class="container py-5">
+      <div class="row">
+          <div class="col-md-4">
+              <h5>About us</h5>
+              <p>Shekz Tech - Globally recognized for superior web development and design tutorials, empowering the tech leaders of tomorrow</p>
+              <div class="social-icons mt-3">
+                  <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <h5>Web Development Courses</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Free Laravel 10 Course</a></li>
+                  <li><a href="#">Free Laravel 9 Course in Hindi/Urdu</a></li>
+                  <li><a href="#">Free CodeIgniter 4 Course</a></li>
+                  <li><a href="#">Free CRUD operation in CodeIgniter 4</a></li>
+                  <li><a href="#">Complete CodeIgniter 4 Series</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5>Tools</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Free JPG, PNG to WebP Converter</a></li>
+                  <li><a href="#">Free Online Image Compression for WebP, PNG, and JPG</a></li>
+              </ul>
+              <h5 class="mt-4">Popular Blogs</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Traditional bus VS High-speed bus architecture</a></li>
+                  <li><a href="#">HP Victus 15 budget gaming laptop</a></li>
+                  <li><a href="#">How to convert USDT to Tron(TRX) on Binance</a></li>
+                  <li><a href="#">Pagination in CodeIgniter 4</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="text-center mt-4">
+          <input type="email" placeholder="Enter your email here" class="footer-input" />
+          <button class="btn btn-primary">SUBSCRIBE NOW</button>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
